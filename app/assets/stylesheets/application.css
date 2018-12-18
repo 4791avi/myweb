@@ -13,6 +13,6 @@
  *= require bootstrap
  *= require owl.carousel
  *= style
- *= require_tree .
  *= require_self
+ * require_tree .
  */
