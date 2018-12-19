@@ -18,7 +18,7 @@ module Myweb
     # the framework and any gems in your application.
     config.assets.precompile += %w(.svg .eot .woff .ttf .otf woff2)
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
-    config.assets.paths << "#{Rails.root}/app/assets/fonts"
+    # config.assets.paths << "#{Rails.root}/app/assets/fonts"
     config.assets.enabled = true
   end
 end

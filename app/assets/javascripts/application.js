@@ -18,5 +18,5 @@
 //= require bootstrap
 //= require easing
 //= require jquery.min
-//= require turbolinks
+// require turbolinks
 // require_tree .
