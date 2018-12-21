@@ -20,6 +20,5 @@ module Myweb
     # config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
     # # config.assets.paths << "#{Rails.root}/app/assets/fonts"
     # config.assets.enabled = true
-    Rails.application.config.assets.precompile += %w( *.js ^[^_]*.css *.css.erb )
   end
 end
